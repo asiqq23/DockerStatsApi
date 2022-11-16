@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31912.275
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DockerApi", "DockerApi\DockerApi.csproj", "{F642EADA-24D7-4221-8DCC-F2C7474A27EC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StatsApi", "StatsApi\StatsApi.csproj", "{18BD64F1-A3AB-4863-BA0E-CDEB40810515}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F642EADA-24D7-4221-8DCC-F2C7474A27EC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F642EADA-24D7-4221-8DCC-F2C7474A27EC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F642EADA-24D7-4221-8DCC-F2C7474A27EC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F642EADA-24D7-4221-8DCC-F2C7474A27EC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{18BD64F1-A3AB-4863-BA0E-CDEB40810515}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{18BD64F1-A3AB-4863-BA0E-CDEB40810515}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{18BD64F1-A3AB-4863-BA0E-CDEB40810515}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{18BD64F1-A3AB-4863-BA0E-CDEB40810515}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {8C5A91C8-D58F-4F47-8920-31AEA58887A3}
+	EndGlobalSection
+EndGlobal

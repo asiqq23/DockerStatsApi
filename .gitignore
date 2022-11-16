@@ -1,0 +1,116 @@
+*.suo
+*.sln.docstates
+_ReSharper.*
+.idea/
+TestResults/
+Chrome.net.vsmdi
+*/NHProf/log.txt
+Chrome.net.4.5.resharper
+*.DS_Store
+StyleCop.Cache
+
+.vs/
+bin/
+Bin/
+obj/
+ClientBin/
+SLBin/
+
+/Build/Results/*
+*.dbmdl
+*.dbproj.schemaview
+
+*.fbl7
+*.junit
+
+/Projects/Komplett.Chrome.Web.Deploy/**/
+
+# Don't track local configuration properties
+/config/Komplett.Chrome.Admin/Configuration.properties
+/config/Komplett.Chrome.Admin/Configuration.properties.*
+
+# Track template configuration properties file
+!/config/Komplett.Chrome.Admin/Configuration.properties.template
+
+# Track environment configuration properties files
+!/config/Komplett.Chrome.Admin/Configuration.properties.env.*
+
+# Don't track files generated from templates
+/Projects/Komplett.Chrome.Admin/Web.config
+
+# Don't track release files
+/Release/
+
+# Dont't track sass cache files
+*sass-cache*
+
+
+lint.db
+
+_UpgradeReport_*
+*ncrunch*
+*.user
+UpgradeLog*
+Backup*/**
+/*.lnk
+
+/Projects/Komplett.Chrome.Web/App_Data/Log.txt
+/Projects/Komplett.Chrome.Web/App_Data/51DegreesLog.txt
+/Projects/Komplett.Chrome.Web/App_Data/*.tmp
+
+
+# Don't track sublime files
+*.sublime-project
+*.sublime-workspace
+*.sublime-project.exclude
+*.sublime-workspace.exclude
+
+# Don't track node and bower modules
+node_modules
+bower_components
+
+# Don't track the output of Minion SASS
+/Projects/Komplett.Chrome.Web/Responsive/Icons
+/Projects/Komplett.Chrome.Web/Responsive/Styles/**/*.css
+/Projects/Komplett.Chrome.Web/Responsive/Styles/**/*.css.map
+
+# Don't track local settings and configurations
+/Projects/Komplett.Chrome.Web/*.config
+!/Projects/Komplett.Chrome.Web/*.octopus.config
+!/Projects/Komplett.Chrome.Web/packages.config
+!/Projects/Komplett.Chrome.Web/web.config
+!/Projects/Komplett.Chrome.Web/web.Release.config
+/Projects/Komplett.Chrome.Web/img/
+/Projects/Komplett.Chrome.Web/mlf/
+/Projects/Komplett.Chrome.Web/marketingmedia/
+
+PrecompiledWeb
+DbUpRunner/**
+.Chrome.net.boltdata/NCover/
+/BuildResult/**
+
+# Ignore the packages folder
+/packages/*
+# except commandline, which is used for restore
+!/packages/MSBuildTargets.*/**/*
+!/packages/NuGet.CommandLine.*/**/*
+
+/Projects/Komplett.Chrome.Web/JsBundles/*.*
+/CodeMaps
+*.private.*
+Projects/Komplett.Chrome.Web/productmedia/
+*.bin
+*.vssettings
+octolocal.user.json
+.cache
+.parcel-cache
+dist
+
+.history
+Projects/Komplett.Chrome.Web/static/
+
+# Gulp config file
+gulp.config.json
+
+#npm package fallback
+npm-shrinkwrap.json
